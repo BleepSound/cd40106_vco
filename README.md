@@ -8,12 +8,20 @@ V/Oct, PWM and FM CV inputs.
 
 Octave switch and pot for fine control for each octave
 
-Extension connector to connect to the SubPower5 (Sub octave extender, soon to be released)
+Extension connector to connect to the SubPhatty extender (Sub octave extender, soon to be released)
 
-You'll find the schematic of this module below: 
+## Schematics
 
-![CD40106 VCO schematic](documentation/image/CD40106-schematic.svg)
-![CD40106 VCO schematic](documentation/image/CD40106-Filtre2.svg)
+![CD40106 VCO schematic](documentation/image/CD40106_VCO--schematic.svg)
+![CD40106 VCO schematic-wave converter](documentation/image/CD40106_VCO-Wave_Converter.svg)
+![CD40106 VCO schematic-octave switch](documentation/image/CD40106_VCO-Octave_switch.svg)
+![CD40106 VCO schematic-Power](documentation/image/CD40106_VCO-Power.svg)
+
+## BoM
+
+[See bom](documentation/bom/Basic-ADSR_V1.0--iBoM.html)
+
+## Build Informations
 
 Uses an SMD LM13700 because the DIP ones are not produced anymore.
 
@@ -26,21 +34,19 @@ Polyester capacitor for the saw core.
 - resistors
 - DIP chips
 - capacitors (film/ceramic)
+- Transistors
 - Electrolytic capacitors
 
-For the next part, always place them without soldering them on: 
-- jacks, pots and switches that go thought the front panel
+To solder the headers, place them and place both PCBs in their final position before fully soldering the pin headers/sockets.
 
-Once placed, put in place the front panel, then fasten all components to it. Once this is done, you can solder them. 
+For the next parts, always place them without soldering them on: 
+- jacks, pots and switches that go throught the front panel
 
-![3D CD40106 VCO(front)](documentation/image/MS20-VCF-3D_top.png)
+Once placed, put the front panel in place, then fasten all components to it. Once this is done, you can solder all the remaining components.
 
-![3D CD40106 VCO(back)](documentation/image/MS20-VCF-3D_bottom.png)
+![3D CD40106 VCO(front)](documentation/image/CD40106_VCO-3D_top.png)
 
-![3D CD40106 VCO(iso)](documentation/image/MS20-VCF-3D_top30deg.png)
+![3D CD40106 VCO(back)](documentation/image/CD40106_VCO-3D_bottom.png)
 
-[See bom globale](documentation/bom/MS20-VCF-ibom-global.html)
+![3D CD40106 VCO(iso)](documentation/image/CD40106_VCO-3D_top30deg.png)
 
-[See bom board jack](documentation/bom/MS20-VCF-ibom-jack.html)
-
-[See bom board circuit](documentation/bom/MS20-VCF-ibom-circuit.html)
