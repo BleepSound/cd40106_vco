@@ -6,13 +6,15 @@ Saw, Square, Sine and triangle wave output.
 
 V/Oct, PWM and FM CV inputs. 
 
+Sync input. 
+
 Octave switch and pot for fine control for each octave
 
 Extension connector to connect to the SubPhatty extender (Sub octave extender, soon to be released)
 
 ## Schematics
 
-![CD40106 VCO schematic](documentation/image/CD40106_VCO--schematic.svg)
+![CD40106 VCO schematic](documentation/image/CD40106_VCO--Schematic.svg)
 ![CD40106 VCO schematic-wave converter](documentation/image/CD40106_VCO-Wave_Converter.svg)
 ![CD40106 VCO schematic-octave switch](documentation/image/CD40106_VCO-Octave_switch.svg)
 ![CD40106 VCO schematic-Power](documentation/image/CD40106_VCO-Power.svg)
