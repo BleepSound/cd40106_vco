@@ -21,7 +21,9 @@ Extension connector to connect to the SubPhatty extender (Sub octave extender, s
 
 ## BoM
 
-[See bom](documentation/bom/Basic-ADSR_V1.0--iBoM.html)
+[See bom](documentation/bom/CD40106_VCO_V1.0--iBoM.html)
+
+You have a bom in excel format available in the bom folder. 
 
 ## Build Informations
 
