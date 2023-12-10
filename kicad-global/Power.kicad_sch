@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CD40106 VCO")
+    (date "2023-12-10")
+    (rev "1.0")
+    (company "Bleep Sound")
+  )
+
   (lib_symbols
     (symbol "4xxx:40106" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
