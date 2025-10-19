@@ -1,5 +1,7 @@
 # CD40106 VCO
 
+Latest documentation available at https://bleepsound.github.io/cd40106_vco/
+
 Saw-core VCO based on Moritz Klein version, with additionnal wave shaping capabilities.
 
 Saw, Square, Sine and triangle wave output.
