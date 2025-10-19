@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CD40106 VCO")
-		(date "2023-12-10")
-		(rev "1.1")
+		(date "2025-10-18")
+		(rev "2.0")
 		(company "Bleep Sound")
 	)
 	(lib_symbols
@@ -3364,10 +3364,16 @@
 		(uuid "2de776c4-85db-4e6e-a7f4-6db424d8b5f3")
 	)
 	(junction
-		(at 80.01 147.32)
+		(at 80.01 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "365a21e4-c354-4f28-abb6-1bc918b30ac4")
+	)
+	(junction
+		(at 50.8 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0b516f-57d9-4e2a-b4d6-1dc110acea6c")
 	)
 	(junction
 		(at 149.86 189.23)
@@ -3376,13 +3382,19 @@
 		(uuid "3fa05934-8ad1-40a9-af5c-98ad298eb412")
 	)
 	(junction
-		(at 80.01 80.01)
+		(at 80.01 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ceea4a7-950e-4f65-8281-28b82034d10f")
 	)
 	(junction
-		(at 36.83 125.73)
+		(at 50.8 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8dcb88-1b0e-423b-a300-7fcee47434a2")
+	)
+	(junction
+		(at 36.83 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ccb230e-40b4-4ce4-bcb5-828d1bc1594e")
@@ -3424,13 +3436,7 @@
 		(uuid "9b1958b2-178b-4930-b062-b37de7b39ad1")
 	)
 	(junction
-		(at 123.19 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f7eacbe-3b7b-4dff-98db-c17b39a9941f")
-	)
-	(junction
-		(at 80.01 109.22)
+		(at 80.01 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a17df6d2-7bd2-44d3-9a58-bfe18bea8681")
@@ -3448,19 +3454,25 @@
 		(uuid "af61e1f1-6fb1-4645-bde8-f259ca154a78")
 	)
 	(junction
+		(at 74.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b328be75-63eb-477a-a1df-f220d798264a")
+	)
+	(junction
 		(at 144.78 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be5a7017-fe9d-43ea-9a6a-8fe8deb78420")
 	)
 	(junction
-		(at 80.01 125.73)
+		(at 80.01 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf79eef2-8182-4c72-b1a6-6f31f77d60ff")
 	)
 	(junction
-		(at 26.67 111.76)
+		(at 26.67 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c54c16d2-a94a-48de-9374-97e1075a852a")
@@ -3478,6 +3490,12 @@
 		(uuid "d9ef8183-f170-4e42-8941-2df9d0a00c25")
 	)
 	(junction
+		(at 80.01 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db6fa034-d069-43c3-aab8-646bc3b90c1d")
+	)
+	(junction
 		(at 184.15 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3490,7 +3508,13 @@
 		(uuid "eb3d8ff7-d907-43e7-b26f-f291e9967088")
 	)
 	(junction
-		(at 22.86 128.27)
+		(at 44.45 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e1c8e6-6c1a-48f7-8e04-7c530908b6ae")
+	)
+	(junction
+		(at 22.86 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f963e90d-52bf-45fb-88fe-509dc766464e")
@@ -3510,7 +3534,7 @@
 		(uuid "413d4bac-355b-46cf-8574-6f6a0e99305e")
 	)
 	(no_connect
-		(at 116.84 85.09)
+		(at 27.94 41.91)
 		(uuid "5bbe299c-33ad-4417-aa4f-d22ffad280cc")
 	)
 	(wire
@@ -3555,7 +3579,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 125.73) (xy 27.94 125.73)
+			(xy 21.59 151.13) (xy 27.94 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +3599,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 26.67 113.03)
+			(xy 80.01 125.73) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1d576a-5f15-4041-807a-ceba5813676c")
+	)
+	(wire
+		(pts
+			(xy 26.67 137.16) (xy 26.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3595,6 +3629,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118cce80-537f-43f1-826b-f85dd4f14539")
+	)
+	(wire
+		(pts
 			(xy 130.81 39.37) (xy 138.43 39.37)
 		)
 		(stroke
@@ -3605,7 +3649,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 106.68) (xy 26.67 111.76)
+			(xy 26.67 132.08) (xy 26.67 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3635,7 +3679,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 128.27) (xy 22.86 128.27)
+			(xy 21.59 153.67) (xy 22.86 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 31.75 120.65)
+			(xy 31.75 147.32) (xy 31.75 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 125.73) (xy 35.56 125.73)
+			(xy 36.83 151.13) (xy 35.56 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3705,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 50.8 48.26)
+			(xy 43.18 73.66) (xy 50.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3765,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 147.32) (xy 85.09 152.4)
+			(xy 85.09 172.72) (xy 85.09 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3775,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 64.77 80.01)
+			(xy 58.42 105.41) (xy 64.77 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3805,7 +3849,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 130.81) (xy 22.86 128.27)
+			(xy 44.45 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5f80db-ebd7-4885-8b58-4f65ed36c0fa")
+	)
+	(wire
+		(pts
+			(xy 22.86 156.21) (xy 22.86 153.67)
 		)
 		(stroke
 			(width 0)
@@ -3825,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 123.19) (xy 22.86 123.19)
+			(xy 21.59 148.59) (xy 22.86 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3835,7 +3889,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 109.22) (xy 64.77 109.22)
+			(xy 58.42 134.62) (xy 64.77 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3845,7 +3899,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 120.65) (xy 36.83 125.73)
+			(xy 36.83 146.05) (xy 36.83 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3875,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 59.69) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a6d46f-817f-41bc-9eab-5d5e69ebde5b")
+	)
+	(wire
+		(pts
 			(xy 139.7 173.99) (xy 139.7 189.23)
 		)
 		(stroke
@@ -3895,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 156.21) (xy 80.01 160.02)
+			(xy 80.01 181.61) (xy 80.01 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3905,13 +3969,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 130.81 110.49)
+			(xy 74.93 45.72) (xy 74.93 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "511ccdc2-f48d-402d-a1d7-f621c47170d0")
+		(uuid "50c3b5ed-4911-4a5c-9174-e40c072e8668")
 	)
 	(wire
 		(pts
@@ -3935,7 +3999,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 33.02 62.23)
+			(xy 43.18 87.63) (xy 33.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3945,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 25.4 111.76)
+			(xy 26.67 137.16) (xy 25.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4015,7 +4079,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 64.77 48.26)
+			(xy 50.8 58.42) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60434f9a-8096-4ec5-9366-0c346ff7cf1e")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 64.77 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 120.65) (xy 36.83 120.65)
+			(xy 31.75 146.05) (xy 36.83 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4115,23 +4189,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 80.01) (xy 39.37 67.31)
+			(xy 39.37 105.41) (xy 39.37 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74aa27a6-8e25-421d-997c-2f833e578c5f")
-	)
-	(wire
-		(pts
-			(xy 115.57 110.49) (xy 123.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75162366-d5fc-4ad9-9a5e-09de087c9b10")
 	)
 	(wire
 		(pts
@@ -4145,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 147.32) (xy 80.01 148.59)
+			(xy 80.01 172.72) (xy 80.01 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4185,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 118.11 91.44)
+			(xy 29.21 46.99) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4205,7 +4269,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 80.01 109.22)
+			(xy 72.39 134.62) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4255,13 +4319,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 80.01 48.26)
+			(xy 72.39 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81099f55-5bf5-4edb-9886-bf03a19b925e")
+	)
+	(wire
+		(pts
+			(xy 44.45 58.42) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8460819b-ac6c-401d-af57-ab751f8f2f69")
 	)
 	(wire
 		(pts
@@ -4275,7 +4349,27 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 80.01 137.16)
+			(xy 58.42 36.83) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a458b4b-881f-4d4a-8932-ab764c37deaf")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab63de7-2560-47eb-a192-d9b412aad438")
+	)
+	(wire
+		(pts
+			(xy 80.01 151.13) (xy 80.01 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4295,16 +4389,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 91.44 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c8cb7fb-be21-41e3-9774-dea18cdbb87e")
-	)
-	(wire
-		(pts
 			(xy 162.56 85.09) (xy 175.26 85.09)
 		)
 		(stroke
@@ -4315,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 80.01) (xy 80.01 80.01)
+			(xy 72.39 105.41) (xy 80.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4335,6 +4419,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c63149-4f00-41f7-bf8f-a4fdf17b4347")
+	)
+	(wire
+		(pts
 			(xy 139.7 57.15) (xy 139.7 58.42)
 		)
 		(stroke
@@ -4345,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 80.01) (xy 39.37 80.01)
+			(xy 50.8 105.41) (xy 39.37 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4365,7 +4459,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 48.26) (xy 43.18 62.23)
+			(xy 43.18 73.66) (xy 43.18 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4385,7 +4479,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 123.19) (xy 22.86 128.27)
+			(xy 82.55 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4ef72a-bb61-4f3d-8bc7-172e6f4c4343")
+	)
+	(wire
+		(pts
+			(xy 22.86 148.59) (xy 22.86 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4395,7 +4499,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 80.01 109.22)
+			(xy 80.01 151.13) (xy 80.01 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4435,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 125.73) (xy 80.01 125.73)
+			(xy 72.39 151.13) (xy 80.01 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4475,6 +4579,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 54.61) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad598629-ef12-4b4b-bcf0-722131dcfe86")
+	)
+	(wire
+		(pts
 			(xy 203.2 66.04) (xy 203.2 63.5)
 		)
 		(stroke
@@ -4485,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 147.32) (xy 85.09 147.32)
+			(xy 80.01 172.72) (xy 85.09 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4505,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 67.31) (xy 33.02 67.31)
+			(xy 39.37 92.71) (xy 33.02 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4525,6 +4639,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 49.53) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80319a3-b231-4156-90eb-2669833e536b")
+	)
+	(wire
+		(pts
 			(xy 207.01 119.38) (xy 200.66 119.38)
 		)
 		(stroke
@@ -4535,13 +4659,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 90.17) (xy 116.84 90.17)
+			(xy 74.93 48.26) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5b885c-6683-47e4-9812-1da7548d6985")
+	)
+	(wire
+		(pts
+			(xy 29.21 46.99) (xy 27.94 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd602001-abbd-40bd-9844-03686068cc9f")
+	)
+	(wire
+		(pts
+			(xy 68.58 58.42) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7b59fc-4e3a-4733-9f27-42c2d21c6b50")
 	)
 	(wire
 		(pts
@@ -4555,23 +4699,43 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 123.19 110.49)
+			(xy 44.45 46.99) (xy 44.45 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be90f347-7b3e-4b76-9952-125dcb663862")
+		(uuid "be8a82b2-a27b-44fb-8a28-422247055e6b")
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 123.19 87.63)
+			(xy 74.93 36.83) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00ad038-b170-436c-a5be-ca502f33100f")
+	)
+	(wire
+		(pts
+			(xy 27.94 44.45) (xy 34.29 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c048f1b3-138a-4e8f-aa9c-ffea85101dc2")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c146bb22-e729-4330-a4b1-0a5fa3abbc10")
 	)
 	(wire
 		(pts
@@ -4595,17 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 87.63) (xy 123.19 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c1a95b-34c1-4b56-90fb-8cfc9b1a2c6f")
-	)
-	(wire
-		(pts
-			(xy 80.01 80.01) (xy 80.01 48.26)
+			(xy 80.01 105.41) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +4829,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 144.78) (xy 80.01 147.32)
+			(xy 80.01 170.18) (xy 80.01 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4715,7 +4869,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 109.22) (xy 50.8 109.22)
+			(xy 25.4 134.62) (xy 50.8 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4745,7 +4899,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 106.68) (xy 26.67 106.68)
+			(xy 25.4 132.08) (xy 26.67 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4762,6 +4916,26 @@
 			(type default)
 		)
 		(uuid "e3405f2c-ece7-4e91-bc55-ab1068542566")
+	)
+	(wire
+		(pts
+			(xy 68.58 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37a0106-398f-4467-8f95-4129aebb90d0")
+	)
+	(wire
+		(pts
+			(xy 120.65 52.07) (xy 120.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bc61d9-b5bc-4b6c-a55a-0a9bbde183f9")
 	)
 	(wire
 		(pts
@@ -4785,13 +4959,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 152.4) (xy 83.82 152.4)
+			(xy 85.09 177.8) (xy 83.82 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea0c8048-2873-43ea-970b-47db6c155e77")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec28b65b-65c2-43b7-a812-568720fe0641")
 	)
 	(wire
 		(pts
@@ -4835,7 +5019,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 80.01 80.01)
+			(xy 80.01 134.62) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4845,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 125.73) (xy 50.8 125.73)
+			(xy 36.83 151.13) (xy 50.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4855,7 +5039,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 125.73) (xy 64.77 125.73)
+			(xy 115.57 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb45d5ef-3f82-475d-bb4a-9b3f0cb0daf0")
+	)
+	(wire
+		(pts
+			(xy 58.42 151.13) (xy 64.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4865,7 +5059,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 71.12) (xy 20.32 82.55)
+			(xy 20.32 96.52) (xy 20.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4882,6 +5076,36 @@
 			(type default)
 		)
 		(uuid "fcc90fd5-b61a-46a6-b18e-a3ddd5ad22bb")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcce340a-e182-4c48-a887-166ec2de5f6e")
+	)
+	(wire
+		(pts
+			(xy 44.45 44.45) (xy 39.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf60af8-9f38-4fd2-8ddc-608e49f7b200")
+	)
+	(wire
+		(pts
+			(xy 50.8 58.42) (xy 50.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5fe748-cad7-4e29-8cc8-38cd433ce74d")
 	)
 	(label "Square out"
 		(at 259.08 85.09 270)
@@ -4924,7 +5148,7 @@
 		(uuid "36856fa1-369b-4362-9c5e-ee4ecce196bc")
 	)
 	(label "Fm"
-		(at 45.72 125.73 90)
+		(at 45.72 151.13 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4944,7 +5168,7 @@
 		(uuid "4972795b-6e79-484d-8942-69ac92c75064")
 	)
 	(label "Fine_oct_in"
-		(at 20.32 82.55 90)
+		(at 20.32 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5074,7 +5298,7 @@
 		(uuid "909b773e-fa98-4ddc-8b50-72e7992c790b")
 	)
 	(label "1V{slash}oct"
-		(at 43.18 109.22 90)
+		(at 43.18 134.62 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5084,7 +5308,7 @@
 		(uuid "93776450-0cb9-47a4-b76f-9ecc7891fcce")
 	)
 	(label "octave"
-		(at 49.53 48.26 90)
+		(at 49.53 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5144,7 +5368,7 @@
 		(uuid "c9ad1f09-702e-4aa6-a2ba-c4f5081ced1c")
 	)
 	(label "Sync"
-		(at 123.19 107.95 0)
+		(at 44.45 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5214,7 +5438,7 @@
 		(uuid "f79f5149-a685-402a-84d7-21111a1450e5")
 	)
 	(label "Fine"
-		(at 45.72 80.01 90)
+		(at 45.72 105.41 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5286,12 +5510,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switching Signal Diode 200mA 100V DO-35"
 			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/1n4148-switching-signal-diode.html"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5311,7 +5545,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 48.26 270)
+		(at 54.61 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5319,7 +5553,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000603affcf")
 		(property "Reference" "R1"
-			(at 54.61 45.72 90)
+			(at 54.61 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5561,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.61 43.18 90)
+			(at 54.61 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 54.61 46.482 90)
+			(at 54.61 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 48.26 0)
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,12 +5586,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 48.26 0)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 54.61 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 54.61 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5377,7 +5621,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_POT")
-		(at 31.75 125.73 90)
+		(at 31.75 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5385,7 +5629,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000603b346c")
 		(property "Reference" "FM_LVL1"
-			(at 33.02 127 0)
+			(at 33.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5638,7 @@
 			)
 		)
 		(property "Value" "B1M"
-			(at 30.48 127 0)
+			(at 30.48 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5647,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Pot-bourns-alpha"
-			(at 31.75 125.73 0)
+			(at 31.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 125.73 0)
+			(at 31.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,12 +5664,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 31.75 125.73 0)
+		(property "Description" "Alpha/bourns vertical potentiometer"
+			(at 31.75 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/alpha-9mm-pots/"
+			(at 31.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5448,7 +5702,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 113.03 0)
+		(at 26.67 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5456,7 +5710,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000615283e8")
 		(property "Reference" "#PWR02"
-			(at 26.67 119.38 0)
+			(at 26.67 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 116.84 0)
+			(at 26.67 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 113.03 0)
+			(at 26.67 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 113.03 0)
+			(at 26.67 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,11 +5745,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 113.03 0)
+			(at 26.67 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5512,7 +5767,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_POT")
-		(at 80.01 152.4 0)
+		(at 80.01 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5520,7 +5775,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000615804ec")
 		(property "Reference" "lvl_Trim1"
-			(at 77.47 148.59 90)
+			(at 77.47 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5784,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 80.01 151.13 90)
+			(at 80.01 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,8 +5792,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
-			(at 80.01 152.4 0)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +5802,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 152.4 0)
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,16 +5810,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 152.4 0)
+		(property "Description" "Trimmer potentiometer, 25 turn series 3296W"
+			(at 80.01 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" ""
-			(at 80.01 152.4 90)
+			(at 80.01 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5829,7 @@
 			)
 		)
 		(property "manf#" ""
-			(at 80.01 152.4 90)
+			(at 80.01 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,8 +5837,17 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" "Use multi turn Cermet style 3296 pots "
-			(at 80.01 152.4 90)
+		(property "Comments" ""
+			(at 80.01 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "Trimmer potentiometer, 25 turn series 3296W"
+			(at 80.01 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,6 +5923,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5723,6 +5989,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5788,6 +6064,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5853,6 +6139,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5918,6 +6214,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 154.94 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5984,6 +6290,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 115.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6047,12 +6363,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BC548 NPN General Purpose Transistor"
 			(at 113.03 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/bc548-transistor-npn-30v-0-1a.html"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6118,16 +6444,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thonkiconn jack"
 			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
+		(property "Comments" ""
 			(at 140.208 78.359 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,12 +6532,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 246.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6257,15 +6621,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 91.44 0)
+		(at 50.8 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e30a8b9-a5c2-4d73-888c-f5472974ecea")
-		(property "Reference" "#PWR07"
-			(at 118.11 97.79 0)
+		(uuid "0a1b13fb-1c7c-4996-8dca-89b2c14e4c01")
+		(property "Reference" "#PWR08"
+			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 95.25 0)
+			(at 50.927 64.0842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 91.44 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +6655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 91.44 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,11 +6664,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 91.44 0)
+			(at 50.8 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d09f8882-4db6-4fe1-bdcf-c7c4d3c68d30")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e30a8b9-a5c2-4d73-888c-f5472974ecea")
+		(property "Reference" "#PWR07"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6369,6 +6799,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6385,7 +6816,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 68.58 48.26 90)
+		(at 68.58 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6394,7 +6825,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f28ea6b-17c5-4f92-a2ef-d1cd3235d61f")
 		(property "Reference" "TH1"
-			(at 68.8975 41.91 90)
+			(at 68.8975 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6833,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC - 10k"
-			(at 68.8975 44.45 90)
+			(at 68.8975 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6841,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Therm_Disc_D6.5mm_W2.5mm_P3.50mm"
-			(at 67.31 48.26 0)
+			(at 67.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6850,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/thermistors/10k-ohm-ntc-thermistor-5mm.html"
-			(at 67.31 48.26 0)
+			(at 67.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,16 +6858,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 48.26 0)
+		(property "Description" "10K NTC type Thermistor"
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "THINKING"
-			(at 68.58 48.26 0)
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6877,16 @@
 			)
 		)
 		(property "manf#" "ATTC-5100"
-			(at 68.58 48.26 0)
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/10k-ohm-ntc-thermistor-5mm.html"
+			(at 68.58 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,12 +6952,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 214.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6619,12 +7088,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BC558 PNP General Purpose Transistor"
 			(at 96.52 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/bc558-bc558b-transistor-pnp-0-1a-30v.html"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6646,34 +7125,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 80.01 140.97 0)
+		(lib_id "power:+12V")
+		(at 74.93 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "24405df0-dc35-48d3-a883-f1d09706a7f8")
-		(property "Reference" "R5"
-			(at 81.28 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 81.28 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 78.232 140.97 90)
+		(uuid "217b9285-3b40-4314-abe6-a7a513a02588")
+		(property "Reference" "#PWR064"
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,8 +7142,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 80.01 140.97 0)
+		(property "Value" "+12V"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,11 +7169,87 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 140.97 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05cb5ea2-28cc-433e-8dc6-8986946af8ad")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 80.01 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24405df0-dc35-48d3-a883-f1d09706a7f8")
+		(property "Reference" "R5"
+			(at 81.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k5"
+			(at 81.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 78.232 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 80.01 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6756,12 +7310,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 146.05 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6817,7 +7399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 130.81 0)
+		(at 22.86 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6826,7 +7408,7 @@
 		(dnp no)
 		(uuid "2bc83706-daf2-4a1f-b08d-bd5f0957b7e1")
 		(property "Reference" "#PWR01"
-			(at 22.86 137.16 0)
+			(at 22.86 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +7417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 135.89 90)
+			(at 22.86 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 130.81 0)
+			(at 22.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 130.81 0)
+			(at 22.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,11 +7443,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 130.81 0)
+			(at 22.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6923,12 +7506,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7026,12 +7637,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 157.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -7044,6 +7656,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -7104,6 +7725,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC548")
+		(at 55.88 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30b87862-f212-4ec6-9bf5-d17c64924764")
+		(property "Reference" "Q3"
+			(at 60.96 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC548"
+			(at 60.96 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 60.96 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "BC548 NPN General Purpose Transistor"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/bc548-transistor-npn-30v-0-1a.html"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26996da8-8098-4a97-9390-7f000d760ff6")
+		)
+		(pin "2"
+			(uuid "1ce21072-bacd-49a8-b7d1-512be50c3fc7")
+		)
+		(pin "3"
+			(uuid "3c56c0e1-14b4-49fe-83f0-2f82f65b372a")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 48.26 0)
 		(unit 1)
@@ -7148,12 +7854,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7221,6 +7937,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7278,12 +7995,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 158.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 158.75 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7347,12 +8074,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin header vertical 1x8pos"
 			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 243.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7444,6 +8181,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7508,6 +8246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7517,6 +8256,71 @@
 			(project "CD40106_VCO"
 				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 82.55 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "492a0da7-182a-4314-bea1-e07b953a88eb")
+		(property "Reference" "#PWR027"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b73c9bdf-c28d-4b6f-b226-e0c2d7afb2c8")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7572,6 +8376,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7630,12 +8435,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 162.56 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7703,6 +8518,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7760,12 +8576,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 217.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 217.17 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7826,12 +8652,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 240.03 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 240.03 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7899,6 +8735,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7965,6 +8802,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 113.03 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -8026,6 +8873,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8035,6 +8883,85 @@
 			(project "CD40106_VCO"
 				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64917cb4-330c-4047-becc-13f2a1b7d969")
+		(property "Reference" "R48"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 76.708 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 74.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d4c9f6d-8351-4119-85a2-2ba3c2d31a15")
+		)
+		(pin "2"
+			(uuid "75b158d6-3c6f-4d92-859e-a17976897da4")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -8090,6 +9017,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8099,6 +9027,85 @@
 			(project "CD40106_VCO"
 				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 41.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bd3cf64-f0bd-4d33-866f-c042b59c2ec5")
+		(property "Reference" "R47"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 76.708 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31d7d098-3b65-44a9-bc3b-20d86302ae98")
+		)
+		(pin "2"
+			(uuid "a78a2a43-dc60-49ab-aa6c-2d9310bd720b")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -8154,6 +9161,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8211,12 +9219,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 179.07 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 179.07 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8236,7 +9254,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 109.22 270)
+		(at 54.61 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +9262,7 @@
 		(dnp no)
 		(uuid "7557b035-dbdf-4631-8d0f-530e082d4fd0")
 		(property "Reference" "R3"
-			(at 54.61 106.68 90)
+			(at 54.61 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +9270,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.61 104.14 90)
+			(at 54.61 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +9278,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 54.61 107.442 90)
+			(at 54.61 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +9287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 109.22 0)
+			(at 54.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,12 +9295,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 109.22 0)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 54.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 54.61 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8350,6 +9378,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8414,6 +9443,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8455,7 +9485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 130.81 119.38 0)
 			(effects
 				(font
@@ -8473,12 +9503,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 5% Mylar Film Capacitors"
 			(at 130.81 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" ""
@@ -8499,7 +9530,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" "If you don't have a mica capacitor, just use a regular ceramic one"
+		(property "Comments" "If you don't have a mylar capacitor, just use a regular ceramic one"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/2-2nf-0-0022uf-100v-5-mylar-film-capacitors.html"
 			(at 130.81 119.38 0)
 			(effects
 				(font
@@ -8574,6 +9614,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 85.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8631,12 +9681,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 99.06 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 99.06 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8704,6 +9764,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8761,12 +9822,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 220.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 220.98 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8786,7 +9857,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 68.58 109.22 90)
+		(at 68.58 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8795,7 +9866,7 @@
 		(fields_autoplaced yes)
 		(uuid "94870a1e-7acd-4c1e-96f2-259dcc0d6505")
 		(property "Reference" "TH3"
-			(at 68.8975 102.87 90)
+			(at 68.8975 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +9874,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC - 10k"
-			(at 68.8975 105.41 90)
+			(at 68.8975 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8811,7 +9882,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Therm_Disc_D6.5mm_W2.5mm_P3.50mm"
-			(at 67.31 109.22 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +9891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/thermistors/10k-ohm-ntc-thermistor-5mm.html"
-			(at 67.31 109.22 0)
+			(at 67.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,16 +9899,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 109.22 0)
+		(property "Description" "10K NTC type Thermistor"
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "THINKING"
-			(at 68.58 109.22 0)
+			(at 68.58 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +9918,16 @@
 			)
 		)
 		(property "manf#" "ATTC-5100"
-			(at 68.58 109.22 0)
+			(at 68.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/10k-ohm-ntc-thermistor-5mm.html"
+			(at 68.58 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +9952,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 68.58 125.73 90)
+		(at 68.58 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8880,7 +9961,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a20724d-7f5b-4cd4-8791-170864f89623")
 		(property "Reference" "TH4"
-			(at 68.8975 119.38 90)
+			(at 68.8975 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9969,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC - 10k"
-			(at 68.8975 121.92 90)
+			(at 68.8975 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +9977,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Therm_Disc_D6.5mm_W2.5mm_P3.50mm"
-			(at 67.31 125.73 0)
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +9986,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/thermistors/10k-ohm-ntc-thermistor-5mm.html"
-			(at 67.31 125.73 0)
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,16 +9994,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 125.73 0)
+		(property "Description" "10K NTC type Thermistor"
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "THINKING"
-			(at 68.58 125.73 0)
+			(at 68.58 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +10013,16 @@
 			)
 		)
 		(property "manf#" "ATTC-5100"
-			(at 68.58 125.73 0)
+			(at 68.58 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/10k-ohm-ntc-thermistor-5mm.html"
+			(at 68.58 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,6 +10095,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9061,12 +10153,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 226.06 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9127,12 +10229,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 203.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9152,7 +10264,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 125.73 270)
+		(at 54.61 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9160,7 +10272,7 @@
 		(dnp no)
 		(uuid "a3002385-c113-440b-ba71-f420300dbd2f")
 		(property "Reference" "R4"
-			(at 54.61 123.19 90)
+			(at 54.61 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9168,7 +10280,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.61 120.65 90)
+			(at 54.61 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +10288,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 54.61 123.952 90)
+			(at 54.61 149.352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +10297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 125.73 0)
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,12 +10305,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 125.73 0)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 54.61 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 54.61 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9266,6 +10388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9282,7 +10405,7 @@
 	)
 	(symbol
 		(lib_id "Kicad-perso:AudioJack_Switch")
-		(at 20.32 107.95 0)
+		(at 20.32 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9290,7 +10413,7 @@
 		(dnp no)
 		(uuid "a48f8d77-8526-44a2-9e3d-b69134da74e8")
 		(property "Reference" "J2"
-			(at 21.59 100.33 0)
+			(at 21.59 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +10422,7 @@
 			)
 		)
 		(property "Value" "CV"
-			(at 21.59 102.87 0)
+			(at 21.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +10431,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Thonkiconn"
-			(at 20.32 101.092 0)
+			(at 20.32 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +10440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.447 102.362 0)
+			(at 20.447 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9325,16 +10448,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 20.32 107.95 0)
+		(property "Description" "Thonkiconn jack"
+			(at 20.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
-			(at 20.828 102.489 0)
+		(property "Comments" ""
+			(at 20.828 127.889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 20.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9410,6 +10543,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9433,10 +10567,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa1146df-54ae-45ce-88f8-dc3bca1a0c3b")
 		(property "Reference" "J10"
-			(at 281.94 83.185 0)
+			(at 276.86 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +10578,7 @@
 			)
 		)
 		(property "Value" "Square"
-			(at 281.94 85.725 0)
+			(at 276.86 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,16 +10604,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thonkiconn jack"
 			(at 276.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
+		(property "Comments" ""
 			(at 276.352 78.359 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 276.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,12 +10694,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin socket vertical 1x8pos"
 			(at 237.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 237.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9643,12 +10796,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin socket vertical 1x8pos"
 			(at 189.23 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 189.23 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9740,6 +10903,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9804,6 +10968,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9868,6 +11033,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9883,8 +11049,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC558")
+		(at 80.01 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9c4ab6e-aaf8-4619-8fcd-d30c85effee3")
+		(property "Reference" "Q4"
+			(at 85.09 48.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC558"
+			(at 85.09 45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 85.09 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "BC558 PNP General Purpose Transistor"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/bc558-bc558b-transistor-pnp-0-1a-30v.html"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "787e1e9a-4437-4a7f-bade-0da3904ac725")
+		)
+		(pin "2"
+			(uuid "54386d75-970c-48ab-acb9-cd372aabd9e3")
+		)
+		(pin "3"
+			(uuid "aedd91de-27b6-4cb6-a366-604a60260afa")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Kicad-perso:AudioJack_Switch")
-		(at 111.76 86.36 0)
+		(at 22.86 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9892,7 +11143,7 @@
 		(dnp no)
 		(uuid "bdc54079-b43c-423d-9c6f-4e1f1dafa7cd")
 		(property "Reference" "J3"
-			(at 113.03 78.74 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +11152,7 @@
 			)
 		)
 		(property "Value" "Sync"
-			(at 113.03 81.28 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +11161,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Thonkiconn"
-			(at 111.76 79.502 0)
+			(at 22.86 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +11170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.887 80.772 0)
+			(at 22.987 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,16 +11178,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 111.76 86.36 0)
+		(property "Description" "Thonkiconn jack"
+			(at 22.86 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
-			(at 112.268 80.899 0)
+		(property "Comments" ""
+			(at 23.368 37.719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 22.86 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,6 +11275,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(instances
@@ -10071,12 +11342,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Alpha/bourns vertical potentiometer"
 			(at 139.7 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/alpha-9mm-pots/"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10144,16 +11425,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thonkiconn jack"
 			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
+		(property "Comments" ""
 			(at 267.462 37.719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 267.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +11472,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 68.58 80.01 90)
+		(at 68.58 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10190,7 +11481,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5d3e44-5b6c-4a64-91cc-e15769448ea3")
 		(property "Reference" "TH2"
-			(at 68.8975 73.66 90)
+			(at 68.8975 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,7 +11489,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC - 10k"
-			(at 68.8975 76.2 90)
+			(at 68.8975 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +11497,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Therm_Disc_D6.5mm_W2.5mm_P3.50mm"
-			(at 67.31 80.01 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +11506,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.taydaelectronics.com/thermistors/10k-ohm-ntc-thermistor-5mm.html"
-			(at 67.31 80.01 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,16 +11514,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 80.01 0)
+		(property "Description" "10K NTC type Thermistor"
+			(at 68.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "THINKING"
-			(at 68.58 80.01 0)
+			(at 68.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +11533,16 @@
 			)
 		)
 		(property "manf#" "ATTC-5100"
-			(at 68.58 80.01 0)
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/10k-ohm-ntc-thermistor-5mm.html"
+			(at 68.58 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10310,12 +11611,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin header vertical 1x8pos"
 			(at 195.58 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 195.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10359,7 +11670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 160.02 0)
+		(at 80.01 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10367,7 +11678,7 @@
 		(dnp no)
 		(uuid "d2a939d5-baad-42ad-b2c3-adefcaf5530c")
 		(property "Reference" "#PWR03"
-			(at 80.01 166.37 0)
+			(at 80.01 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +11687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.137 164.4142 0)
+			(at 80.137 189.8142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +11695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 160.02 0)
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +11704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 160.02 0)
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,11 +11713,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 160.02 0)
+			(at 80.01 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10423,7 +11735,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 123.19 100.33 90)
+		(at 44.45 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10431,7 +11743,7 @@
 		(dnp no)
 		(uuid "d34797a8-cb6c-4e62-b32f-71f88085c71d")
 		(property "Reference" "D1"
-			(at 120.65 100.33 0)
+			(at 41.656 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +11751,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 125.73 100.33 0)
+			(at 39.116 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +11759,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 123.19 100.33 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +11768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 100.33 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,12 +11776,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 123.19 100.33 0)
+		(property "Description" "Switching Signal Diode 200mA 100V DO-35"
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/1n4148-switching-signal-diode.html"
+			(at 44.45 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10489,7 +11811,7 @@
 	)
 	(symbol
 		(lib_id "Kicad-perso:AudioJack_Switch")
-		(at 16.51 124.46 0)
+		(at 16.51 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10497,7 +11819,7 @@
 		(dnp no)
 		(uuid "daf82d30-0642-4616-bf34-a16ca89c123a")
 		(property "Reference" "J1"
-			(at 17.78 116.84 0)
+			(at 17.78 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +11828,7 @@
 			)
 		)
 		(property "Value" "FM"
-			(at 17.78 119.38 0)
+			(at 17.78 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +11837,7 @@
 			)
 		)
 		(property "Footprint" "Kicad-perso:Thonkiconn"
-			(at 16.51 117.602 0)
+			(at 16.51 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +11846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 16.637 118.872 0)
+			(at 16.637 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,16 +11854,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 16.51 124.46 0)
+		(property "Description" "Thonkiconn jack"
+			(at 16.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
-			(at 17.018 118.999 0)
+		(property "Comments" ""
+			(at 17.018 144.399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 16.51 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +11901,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 80.01 270)
+		(at 54.61 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10577,7 +11909,7 @@
 		(dnp no)
 		(uuid "de5390aa-52bc-4f42-99e2-c463cf0499b2")
 		(property "Reference" "R2"
-			(at 54.61 77.47 90)
+			(at 54.61 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +11917,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 54.61 74.93 90)
+			(at 54.61 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10593,7 +11925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 54.61 78.232 90)
+			(at 54.61 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +11934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 80.01 0)
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,12 +11942,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 80.01 0)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 54.61 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10628,6 +11970,83 @@
 			(project "CD40106_VCO"
 				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 36.83 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deff9463-63bb-4648-9466-0c4ed6e6a4a7")
+		(property "Reference" "C1"
+			(at 36.83 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "470pF"
+			(at 36.83 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
+			(at 36.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 36.83 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "197c1f7e-1bbd-4a06-810e-8a8d9a87127b")
+		)
+		(pin "2"
+			(uuid "97898e7e-ed85-4042-82d5-419826b904bd")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10683,6 +12102,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10747,6 +12167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10805,12 +12226,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Alpha/bourns vertical potentiometer"
 			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/alpha-9mm-pots/"
+			(at 157.48 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10881,6 +12312,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10938,12 +12370,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 184.15 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10956,6 +12398,84 @@
 			(project "CD40106_VCO"
 				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efdad25d-3aa1-4731-b11b-c0962a896a98")
+		(property "Reference" "R46"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 52.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 49.022 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a5df04-f79c-489f-aae8-b0d8b0219adc")
+		)
+		(pin "2"
+			(uuid "b1edb8a9-8f87-431b-a31b-95c0e97a914b")
+		)
+		(instances
+			(project "CD40106_VCO"
+				(path "/fea7c5d1-76d6-41a0-b5e3-29889dbb8ce0"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -11011,6 +12531,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11068,12 +12589,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 264.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 264.16 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11092,7 +12623,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 57.15)
+		(at 17.78 82.55)
 		(size 15.24 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11108,7 +12639,7 @@
 		)
 		(uuid "81e6b2af-0e05-441b-92d5-5b2db5d1019d")
 		(property "Sheetname" "Octave switch"
-			(at 17.78 56.4384 0)
+			(at 17.78 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +12648,7 @@
 			)
 		)
 		(property "Sheetfile" "octave_switch.kicad_sch"
-			(at 17.78 71.7046 0)
+			(at 17.78 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +12658,7 @@
 			)
 		)
 		(pin "Fine" output
-			(at 33.02 67.31 0)
+			(at 33.02 92.71 0)
 			(uuid "f6aff0be-42bc-4e7e-9d28-2961983e65f4")
 			(effects
 				(font
@@ -11137,7 +12668,7 @@
 			)
 		)
 		(pin "Octave" output
-			(at 33.02 62.23 0)
+			(at 33.02 87.63 0)
 			(uuid "3640b531-4454-4a6d-ae5e-548905d53ab3")
 			(effects
 				(font
@@ -11147,7 +12678,7 @@
 			)
 		)
 		(pin "Fine_oct_in" output
-			(at 20.32 71.12 270)
+			(at 20.32 96.52 270)
 			(uuid "c09bd8c9-65db-4ec6-a535-05df81aaa0be")
 			(effects
 				(font

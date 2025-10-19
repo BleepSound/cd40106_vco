@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "CD40106 VCO")
-		(date "2023-12-10")
-		(rev "1.1")
+		(date "2025-10-18")
+		(rev "2.0")
 		(company "Bleep Sound")
 	)
 	(lib_symbols
@@ -4394,12 +4394,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF Electrolytic capacitor, 2.0mm pitch, 5mm diameter"
 			(at 196.85 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/electrolytic-capacitors.html"
+			(at 196.85 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4463,12 +4473,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4549,12 +4587,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 232.41 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4617,12 +4665,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4683,12 +4741,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -4701,6 +4760,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 41.91 55.88 0)
 			(effects
 				(font
@@ -4803,12 +4871,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -4821,6 +4890,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 41.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 41.91 45.72 0)
 			(effects
 				(font
@@ -4930,6 +5008,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4989,12 +5068,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 241.3 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 241.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5057,12 +5146,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5125,12 +5224,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF Electrolytic capacitor, 2.0mm pitch, 5mm diameter"
 			(at 196.85 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/electrolytic-capacitors.html"
+			(at 196.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5193,12 +5302,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 223.52 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5266,6 +5385,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5323,12 +5443,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 41.91 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -5341,6 +5462,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 41.91 76.2 0)
 			(effects
 				(font
@@ -5445,12 +5575,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 114.3 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5547,12 +5705,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 41.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -5565,6 +5724,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -5677,6 +5845,15 @@
 				(hide yes)
 			)
 		)
+		(property "Links" "https://www.taydaelectronics.com/1n5819-schottky-barrier-diode-1a-40v.html"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "743c5770-9eb5-4c39-a114-17b3d03a6429")
 		)
@@ -5738,12 +5915,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5829,6 +6034,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5893,6 +6099,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5952,12 +6159,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6018,12 +6235,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 41.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -6036,6 +6254,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 41.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 41.91 86.36 0)
 			(effects
 				(font
@@ -6140,12 +6367,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Transconductance Amplifiers"
 			(at 93.98 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Texas Instrument"
@@ -6158,6 +6386,15 @@
 			)
 		)
 		(property "manf#" "LM13700MX/NOPB"
+			(at 93.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/c/semiconductors/amplifier-ics/transconductance-amplifiers/?series=LM13700"
 			(at 93.98 113.03 0)
 			(effects
 				(font
@@ -6268,12 +6505,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 214.63 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6341,6 +6588,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6405,6 +6653,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6464,12 +6713,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 241.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6531,12 +6790,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Eurorack 10 pin shrouded power header IDC"
 			(at 170.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 170.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6628,6 +6897,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6687,12 +6957,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 232.41 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 232.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6755,12 +7035,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 250.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6823,12 +7113,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 105.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6935,6 +7253,15 @@
 				(hide yes)
 			)
 		)
+		(property "Links" "https://www.taydaelectronics.com/1n5819-schottky-barrier-diode-1a-40v.html"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cca92153-3980-4b11-9fd9-ac5d805ab08c")
 		)
@@ -6995,12 +7322,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 205.74 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 205.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7068,6 +7405,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7128,12 +7466,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inverters Hex Schmitt Trigger"
 			(at 71.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Nexperia"
@@ -7146,6 +7485,15 @@
 			)
 		)
 		(property "manf#" "CD40106BE"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/CD40106BE?qs=YhsVCygOPE1CyKyInx%252Bh3Q%3D%3D"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -7255,6 +7603,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

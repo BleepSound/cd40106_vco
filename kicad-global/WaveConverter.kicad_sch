@@ -3783,6 +3783,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3824,7 +3825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 93.98 146.05 0)
 			(effects
 				(font
@@ -3842,15 +3843,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 93.98 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manf" "ALPHA"
+		(property "manf" ""
 			(at 93.98 146.05 90)
 			(effects
 				(font
@@ -3868,7 +3870,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" "Use multi turn Cermet style 3296 pots "
+		(property "Comments" ""
+			(at 93.98 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/25-turn-trimmer-potentiometer/"
 			(at 93.98 146.05 90)
 			(effects
 				(font
@@ -3945,6 +3956,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4002,12 +4014,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 60.96 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 60.96 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4069,12 +4091,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Transconductance Amplifiers"
 			(at 90.17 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Texas Instrument"
@@ -4087,6 +4110,15 @@
 			)
 		)
 		(property "manf#" "LM13700MX/NOPB"
+			(at 90.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/c/semiconductors/amplifier-ics/transconductance-amplifiers/?series=LM13700"
 			(at 90.17 97.79 0)
 			(effects
 				(font
@@ -4195,12 +4227,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 93.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 93.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4261,12 +4303,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 166.37 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4334,6 +4386,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4391,12 +4444,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 229.87 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 229.87 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4457,12 +4520,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 144.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 144.78 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4523,12 +4596,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 59.69 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4596,6 +4679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4653,12 +4737,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Diode 200mA 100V DO-35"
 			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/1n914-small-signal-diode-200ma-100v.html"
+			(at 160.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4719,12 +4813,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 34.29 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4792,6 +4896,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4856,6 +4961,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4913,12 +5019,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 212.09 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 212.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5022,6 +5156,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5080,12 +5215,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Transconductance Amplifiers"
 			(at 82.55 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Texas Instrument"
@@ -5098,6 +5234,15 @@
 			)
 		)
 		(property "manf#" "LM13700MX/NOPB"
+			(at 82.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/c/semiconductors/amplifier-ics/transconductance-amplifiers/?series=LM13700"
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -5206,12 +5351,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 93.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5315,6 +5488,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5379,6 +5553,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5436,12 +5611,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 214.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 214.63 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5502,12 +5687,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small Signal Diode 200mA 100V DO-35"
 			(at 160.02 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/1n914-small-signal-diode-200ma-100v.html"
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5568,12 +5763,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 138.43 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5670,12 +5893,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 179.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5736,12 +5969,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 60.96 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 60.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5809,6 +6052,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5866,12 +6110,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 201.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 201.93 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5939,6 +6193,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5979,7 +6234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 60.96 137.16 0)
 			(effects
 				(font
@@ -5997,15 +6252,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 60.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manf" "ALPHA"
+		(property "manf" ""
 			(at 60.96 137.16 90)
 			(effects
 				(font
@@ -6023,7 +6279,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" "Use multi turn Cermet style 3296 pots "
+		(property "Comments" ""
+			(at 60.96 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 60.96 137.16 90)
 			(effects
 				(font
@@ -6093,12 +6358,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 133.35 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6159,12 +6434,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Transconductance Amplifiers"
 			(at 120.65 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Texas Instrument"
@@ -6177,6 +6453,15 @@
 			)
 		)
 		(property "manf#" "LM13700MX/NOPB"
+			(at 120.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/c/semiconductors/amplifier-ics/transconductance-amplifiers/?series=LM13700"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -6292,6 +6577,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6349,12 +6635,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 172.72 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6419,16 +6715,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thonkiconn jack"
 			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
+		(property "Comments" ""
 			(at 163.322 150.749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 163.83 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,12 +6803,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 64.77 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 64.77 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6563,12 +6879,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 130.81 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 130.81 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6636,6 +6962,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6700,6 +7027,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6757,12 +7085,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 171.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6830,6 +7168,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6887,12 +7226,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quad Op-Amp"
 			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/eurorack-diy-essentials/"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL074CN"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6989,12 +7356,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 121.92 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7059,16 +7436,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thonkiconn jack"
 			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Comments" "Thonkiconn jack"
+		(property "Comments" ""
 			(at 264.922 25.019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/thonkiconn/"
+			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,12 +7524,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 49.53 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7203,12 +7600,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 104.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 104.14 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7276,6 +7683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7340,6 +7748,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7397,12 +7806,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 74.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 74.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7463,12 +7882,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 104.14 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7529,12 +7958,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual Transconductance Amplifiers"
 			(at 110.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Texas Instrument"
@@ -7547,6 +7977,15 @@
 			)
 		)
 		(property "manf#" "LM13700MX/NOPB"
+			(at 110.49 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/c/semiconductors/amplifier-ics/transconductance-amplifiers/?series=LM13700"
 			(at 110.49 96.52 0)
 			(effects
 				(font
@@ -7658,12 +8097,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin header vertical 1x2pos"
 			(at 227.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 227.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7707,7 +8156,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 34.29 140.97 0)
 			(effects
 				(font
@@ -7725,15 +8174,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 34.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "manf" "ALPHA"
+		(property "manf" ""
 			(at 34.29 140.97 90)
 			(effects
 				(font
@@ -7751,7 +8201,16 @@
 				(hide yes)
 			)
 		)
-		(property "Comments" "Use multi turn Cermet style 3296 pots "
+		(property "Comments" ""
+			(at 34.29 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 34.29 140.97 90)
 			(effects
 				(font

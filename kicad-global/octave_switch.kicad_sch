@@ -3229,12 +3229,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 99.06 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3297,12 +3307,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin header vertical 1x4pos"
 			(at 227.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 227.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3370,12 +3390,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 99.06 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 99.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3463,6 +3511,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3535,6 +3584,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3598,12 +3648,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 39.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 39.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3671,6 +3731,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3728,12 +3789,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 76.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 76.2 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3795,12 +3866,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 111.76 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3874,6 +3955,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3932,12 +4014,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 99.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 99.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4018,12 +4128,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Alpha/bourns vertical potentiometer"
 			(at 116.84 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.thonk.co.uk/shop/alpha-9mm-pots/"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4087,12 +4207,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 39.37 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4137,7 +4267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -4155,12 +4285,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Trimmer potentiometer, 25 turn series 3296W"
 			(at 113.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "Trimmer potentiometer, 25 turn series 3296W"
+			(at 113.03 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4225,12 +4365,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 144.78 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 144.78 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4316,6 +4484,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4375,12 +4544,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 68.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4441,12 +4620,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4516,6 +4705,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4581,12 +4771,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 124.46 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 124.46 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4654,6 +4854,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4712,12 +4913,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 96.52 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4786,12 +4997,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 148.59 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4854,12 +5075,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Monolithic Ceramic capacitor 50V 10%"
 			(at 27.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor.html"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4923,12 +5154,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54mm pitch pin socket vertical 1x4pos"
 			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4996,12 +5237,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Operational Amplifiers - Op Amps Dual JFET In Low N"
 			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TL072IP?qs=5BZzbFV4k2v7IBrcArRPQw%3D%3D"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Texas Instrument"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "TL072IP"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5087,6 +5356,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5151,6 +5421,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5217,6 +5488,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5306,6 +5587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Links" "https://uk.rs-online.com/web/p/voltage-references/5335799P?gb=s"
+			(at 39.37 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88883c72-6c3c-4fa1-a429-00f2d1eefe63")
 		)
@@ -5368,12 +5658,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 88.9 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5441,12 +5741,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 86.36 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 86.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5508,12 +5818,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 104.14 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5587,6 +5907,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5645,12 +5966,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 Position DPST Rotary Switch"
 			(at 132.08 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "manf" "Lorlin"
@@ -5663,6 +5985,24 @@
 			)
 		)
 		(property "manf#" "CK1055"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" "Cut the shaft to required length"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://uk.rs-online.com/web/p/rotary-switches/8660278?searchId=ac79d3c7-8ed3-428a-a94f-85e7c88d4e39&gb=s"
 			(at 132.08 105.41 0)
 			(effects
 				(font
@@ -5766,12 +6106,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.5mm*6.8mm 1/4W 1% Metal film resistor"
 			(at 81.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Links" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/test-group-2.html"
+			(at 81.28 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5845,6 +6195,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
